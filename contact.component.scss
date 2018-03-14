@@ -1,0 +1,154 @@
+
+.alert 
+{
+    width: 100%;
+    position: absolute;
+    z-index: 500;
+    bottom: -60px;
+    text-align: center;
+    -webkit-animation: fadeinout 6s linear forwards;
+    animation: fadeinout 6s linear forwards;
+}
+@-webkit-keyframes fadeinout 
+{
+  0% { opacity: 0; }
+  30%,70% { opacity: 1; }
+}
+@keyframes fadeinout 
+{
+  0% { opacity: 0; }
+  30%,70% { opacity: 1; }
+}
+.invalid
+{
+    width: 100%;
+    padding: 1px;
+    background: -moz-linear-gradient(left, rgba(89,0,0,1) 0%, rgba(227,13,77,1) 24%, rgba(241,245,12,1) 49%, rgba(63,240,24,1) 70%, rgba(39,58,230,1) 91%, rgba(1,11,99,1) 99%, rgba(1,11,99,1) 100%) !important;
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(89,0,0,1)), color-stop(24%, rgba(227,13,77,1)), color-stop(49%, rgba(241,245,12,1)), color-stop(70%, rgba(63,240,24,1)), color-stop(91%, rgba(39,58,230,1)), color-stop(99%, rgba(1,11,99,1)), color-stop(100%, rgba(1,11,99,1))) !important;
+    background: -webkit-linear-gradient(left, rgba(89,0,0,1) 0%, rgba(227,13,77,1) 24%, rgba(241,245,12,1) 49%, rgba(63,240,24,1) 70%, rgba(39,58,230,1) 91%, rgba(1,11,99,1) 99%, rgba(1,11,99,1) 100%) !important;
+    background: -o-linear-gradient(left, rgba(89,0,0,1) 0%, rgba(227,13,77,1) 24%, rgba(241,245,12,1) 49%, rgba(63,240,24,1) 70%, rgba(39,58,230,1) 91%, rgba(1,11,99,1) 99%, rgba(1,11,99,1) 100%) !important;
+    background: -ms-linear-gradient(left, rgba(89,0,0,1) 0%, rgba(227,13,77,1) 24%, rgba(241,245,12,1) 49%, rgba(63,240,24,1) 70%, rgba(39,58,230,1) 91%, rgba(1,11,99,1) 99%, rgba(1,11,99,1) 100%) !important;
+    background: linear-gradient(to right, rgba(89,0,0,1) 0%, rgba(227,13,77,1) 24%, rgba(241,245,12,1) 49%, rgba(63,240,24,1) 70%, rgba(39,58,230,1) 91%, rgba(1,11,99,1) 99%, rgba(1,11,99,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#590000', endColorstr='#010b63', GradientType=1 ) !important;
+}
+.form-check-label {
+    padding-left: 0;
+}
+label
+{
+    color: #aaa;
+}
+.form-control
+{
+    padding: 0.3rem 0.75rem;
+}
+.float-label-control 
+{
+    position: relative; margin-bottom: 1.5rem; 
+}
+.float-label-control input:-webkit-autofill,
+.float-label-control textarea:-webkit-autofill 
+{ 
+    background-color: transparent !important;
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+    -moz-box-shadow: 0 0 0 1000px white inset !important;
+    box-shadow: 0 0 0 1000px white inset !important; 
+}
+.float-label-control input, .float-label-control textarea,
+.float-label-control label 
+{
+    font-size: 1.3em; 
+    box-shadow: none; 
+    -webkit-box-shadow: none; 
+}
+.float-label-control input,
+.float-label-control textarea 
+{ 
+    width: 100%;
+    color: #d4d3d3;
+    font-size: 13px;
+    border: none;
+    border-bottom: 1px solid #aaa;
+    background: transparent;
+    letter-spacing: 2px;
+    min-height: 4vh;
+}
+.float-label-control textarea 
+{
+     min-height: 6vh !important;
+}
+.btn-secondary 
+{
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    background: #303133;
+    color: #5cb85c;
+}
+.btn-secondary[disabled] {
+    cursor: not-allowed;
+}
+img {
+    width: auto;
+    height: auto;
+}
+.dragScroll {
+    width: 100%;
+    height: 38vh;
+    overflow: auto;
+}
+.post_content {
+    overflow: hidden;
+    max-width: 100%;
+    margin: 3rem auto 0 auto;
+    position: absolute;
+    cursor: -webkit-grab;
+    cursor: -moz-grab;
+    cursor: -o-grab;
+    cursor: grab;
+}
+@media (max-width: 768px)
+{
+    .float-label-control
+    {
+        margin-bottom: 0.5rem; 
+    }
+}
+@media (max-width: 576px)
+{
+    .mouseWheel-fluid
+    {
+        min-height: 130vh;
+    }
+}
+.mapa{margin-top:50px;height:300px;}
+.vermapa:hover { 
+    opacity: .3;
+}
+.vermapa h2 { 
+  
+    color: transparent;
+}
+.vermapa { 
+    width: 100%;
+    color: transparent;
+}
+.mapa {
+    position: relative;
+    text-align: center;
+  
+}
+
+.nontext{
+    display: none;
+}
+.showtext {
+display: block;
+}
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
